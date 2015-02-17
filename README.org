@@ -15,7 +15,7 @@ This is a proof of concept for a stub generating facility for *boot-clj*.
  :dependencies '[[danielsz/boot-binstubs "0.0.1-SNAPSHOT"]])
 (require '[danielsz.binstubs :refer [binstub]])
 #+END_SRC
-- User types:
+- User types in any boot-clj project:
 #+BEGIN_SRC shell
 boot binstub -r RELEASE
 #+END_SRC
