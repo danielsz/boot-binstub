@@ -1,0 +1,18 @@
+* Boot-binstub
+
+** Proof of concept
+
+This is a proof of concept for a stub generating facility for *boot-clj*.
+
+** Concept
+
+- Boot-clj creates a bin directory under *BOOT_HOME*.
+- User adds *$BOOT_HOME/bin* directory to his path. 
+- User leverages Boot’s built-in facility to define a *-main* method in build.boot.
+- User types:
+#+BEGIN_SRC shell
+boot binstub -r RELEASE
+#+END_SRC
+Where release is the name of the stub that will be generated. 
+
+Quod Erat Demonstrandum: user can invoke his Clojure application from anywhere in the shell.
