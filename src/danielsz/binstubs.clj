@@ -24,7 +24,7 @@
        (System/exit -1))))
  
 (core/deftask binstub
-  "If conditions are met, will alias stub an executable in boot/bin directory."
+  "If conditions are met, will stub an executable in boot/bin directory."
   [r release RELEASE str "The final name of your application stub"]
   (fn [next-task]
     (fn [fileset]
