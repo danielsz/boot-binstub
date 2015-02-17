@@ -7,8 +7,7 @@
 
 (def current-dir (System/getProperty "user.dir"))
 (def path (System/getenv "PATH"))
-(def user-directory (System/getProperty "user.home"))
-(def boot-bin-directory (io/file (str user-directory "/.boot/bin")))
+(def boot-bin-directory (io/file (str (boot.App/getBootDir) "/bin")))
 
 (defn write-executable [lines path]
   (io/make-parents path)
