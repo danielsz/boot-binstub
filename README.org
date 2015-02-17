@@ -20,3 +20,4 @@ Quod Erat Demonstrandum: user can invoke his Clojure application from anywhere i
 ** Note to boot-clj contributors
 
 If we decide to adopt this approach, please open issues so I can start refining the functionality. 
+Pull requests welcome, too.
