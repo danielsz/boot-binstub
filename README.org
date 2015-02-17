@@ -16,3 +16,7 @@ boot binstub -r RELEASE
 Where release is the name of the stub that will be generated. 
 
 Quod Erat Demonstrandum: user can invoke his Clojure application from anywhere in the shell.
+
+** Note to boot-clj contributors
+
+If we decide to adopt this approach, please open issues so I can start refining the functionality. 
