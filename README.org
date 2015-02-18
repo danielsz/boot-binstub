@@ -9,7 +9,7 @@ This is a proof of concept for a stub generating facility for *boot-clj*.
 - Boot-clj creates a bin directory under *BOOT_HOME*.
 - User adds *$BOOT_HOME/bin* directory to his path. 
 - User leverages Boot’s built-in facility to define a *-main* method in build.boot.
-- User imports the task in *build.boot* or *profile.boot*
+- User imports the binstub task in *build.boot* or *profile.boot*
 #+BEGIN_SRC clojure
 (set-env!
  :dependencies '[[danielsz/boot-binstubs "0.0.1-SNAPSHOT"]])
