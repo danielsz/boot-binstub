@@ -12,7 +12,7 @@
 (task-options!
  aot {:namespace '#{danielsz.binstubs}}
  pom {:project 'danielsz/boot-binstubs
-      :version "0.0.1-SNAPSHOT"
+      :version "0.0.1"
       :scm {:name "git"
             :url "https://github.com/danielsz/boot-binstub"}})
 
