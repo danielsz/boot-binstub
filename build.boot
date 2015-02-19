@@ -6,13 +6,13 @@
 
 (require '[adzerk.bootlaces :refer :all])
 
-(def +version+ "0.0.1")
+(def +version+ "0.0.1-SNAPSHOT")
 (bootlaces! +version+)
 
 (task-options!
  aot {:namespace '#{danielsz.binstubs}}
  pom {:project 'danielsz/boot-binstubs
-      :version "0.0.1"
+      :version "0.0.1-SNAPSHOT"
       :scm {:name "git"
             :url "https://github.com/danielsz/boot-binstub"}})
 
