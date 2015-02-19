@@ -12,7 +12,9 @@
 (task-options!
  aot {:namespace '#{danielsz.binstubs}}
  pom {:project 'danielsz/boot-binstubs
-      :version "0.0.1-SNAPSHOT"})
+      :version "0.0.1-SNAPSHOT"
+      :scm {:name "git"
+            :url "https://github.com/danielsz/boot-binstub"}})
 
 (deftask build
   "Build jar and install to local repo."
